@@ -1,0 +1,90 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "60ffe0db3e4d09eaac53",
+  "displayName": "Página 1",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "objects": {
+    "outspace": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'TV - 3.svg'"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "ResourcePackageItem": {
+                    "PackageName": "RegisteredResources",
+                    "PackageType": 1,
+                    "ItemName": "TV_-_38863286006174734.svg"
+                  }
+                }
+              },
+              "scaling": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'Normal'"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "2212a6afdc4339f50d3b",
+      "target": "58f619140af5c70c9b69",
+      "type": "NoFilter"
+    },
+    {
+      "source": "15761ab6d31e18adebb4",
+      "target": "58f619140af5c70c9b69",
+      "type": "NoFilter"
+    },
+    {
+      "source": "58f619140af5c70c9b69",
+      "target": "15761ab6d31e18adebb4",
+      "type": "NoFilter"
+    },
+    {
+      "source": "58f619140af5c70c9b69",
+      "target": "2212a6afdc4339f50d3b",
+      "type": "NoFilter"
+    },
+    {
+      "source": "58f619140af5c70c9b69",
+      "target": "b29753f849d7395d7e7c",
+      "type": "NoFilter"
+    },
+    {
+      "source": "58f619140af5c70c9b69",
+      "target": "c00563237ca18a954eee",
+      "type": "NoFilter"
+    },
+    {
+      "source": "58f619140af5c70c9b69",
+      "target": "26392a128d4d7bed80ef",
+      "type": "NoFilter"
+    },
+    {
+      "source": "58f619140af5c70c9b69",
+      "target": "9d94b76f2e5f08139115",
+      "type": "NoFilter"
+    },
+    {
+      "source": "58f619140af5c70c9b69",
+      "target": "ea7dd1de0d2961f2785a",
+      "type": "NoFilter"
+    }
+  ]
+}

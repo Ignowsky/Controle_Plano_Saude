@@ -1,0 +1,184 @@
+table vw_forecast_dependentes
+	lineageTag: 334b0186-44bf-4e68-8495-0c7af0e079c5
+
+	column nome_titular
+		dataType: string
+		lineageTag: f379d527-5f12-4682-ba23-6c6461251493
+		summarizeBy: none
+		sourceColumn: nome_titular
+
+		annotation SummarizationSetBy = Automatic
+
+	column nome_dependente
+		dataType: string
+		lineageTag: 4b558a25-8b58-43f3-ad61-dae58677d3ac
+		summarizeBy: none
+		sourceColumn: nome_dependente
+
+		annotation SummarizationSetBy = Automatic
+
+	column parentesco
+		dataType: string
+		lineageTag: 84881914-d51a-425c-8a93-01069aa31044
+		summarizeBy: none
+		sourceColumn: parentesco
+
+		annotation SummarizationSetBy = Automatic
+
+	column departamento
+		dataType: string
+		lineageTag: ffa6df37-7bad-428b-9576-a6ae698c7f67
+		summarizeBy: none
+		sourceColumn: departamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_nascimento
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 37fca25d-f1d1-4667-97a6-c3dc9196e5bd
+		summarizeBy: none
+		sourceColumn: data_nascimento
+
+		variation Variation
+			isDefault
+			relationship: 35a7f08c-d782-4729-81ac-29ecab402f3b
+			defaultHierarchy: LocalDateTable_b40abb64-d56b-4e14-acaa-764e6d7a6c47.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column idade_atual
+		dataType: int64
+		formatString: 0
+		lineageTag: 8f576600-40fe-437f-8e1b-216eb65f8334
+		summarizeBy: sum
+		sourceColumn: idade_atual
+
+		annotation SummarizationSetBy = Automatic
+
+	column idade_futura
+		dataType: int64
+		formatString: 0
+		lineageTag: a665a391-0e9b-4f57-a402-beff3966218c
+		summarizeBy: sum
+		sourceColumn: idade_futura
+
+		annotation SummarizationSetBy = Automatic
+
+	column data_proximo_aniversario
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 81043b88-0fc3-4ead-b429-8343909e2f94
+		summarizeBy: none
+		sourceColumn: data_proximo_aniversario
+
+		variation Variation
+			isDefault
+			relationship: f67f7d0e-735c-4a62-b354-b1cb7012e0d0
+			defaultHierarchy: LocalDateTable_2604e383-5b12-4a9f-8576-467131b74c0d.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column custo_atual
+		dataType: decimal
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		lineageTag: e8ccee95-12e5-4b90-8eb8-ca03eaf35b9e
+		summarizeBy: sum
+		sourceColumn: custo_atual
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column faixa_etaria_atual
+		dataType: string
+		lineageTag: 5c395c0c-d99a-4c36-8df5-89d2fa1dcd90
+		summarizeBy: none
+		sourceColumn: faixa_etaria_atual
+
+		annotation SummarizationSetBy = Automatic
+
+	column custo_futuro
+		dataType: decimal
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		lineageTag: fd28d811-6daa-4949-918b-9a158b45bb7c
+		summarizeBy: sum
+		sourceColumn: custo_futuro
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column faixa_etaria_futura
+		dataType: string
+		lineageTag: 0d0572a2-619a-4036-a7c9-0c6d56c324c2
+		summarizeBy: none
+		sourceColumn: faixa_etaria_futura
+
+		annotation SummarizationSetBy = Automatic
+
+	column valor_aumento
+		dataType: decimal
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		lineageTag: 837961bc-262f-45d0-8ed9-93424bc16aba
+		summarizeBy: sum
+		sourceColumn: valor_aumento
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	column havera_reajuste_faixa
+		dataType: string
+		lineageTag: 621302bc-c2e9-43cf-8ac2-56116bfd3a9c
+		summarizeBy: none
+		sourceColumn: havera_reajuste_faixa
+
+		annotation SummarizationSetBy = Automatic
+
+	column mes_competencia_aumento
+		dataType: string
+		lineageTag: 49924d3c-327d-44e8-bdf2-a9414fe89539
+		summarizeBy: none
+		sourceColumn: mes_competencia_aumento
+
+		annotation SummarizationSetBy = Automatic
+
+	column dependente_id
+		dataType: int64
+		formatString: 0
+		lineageTag: d04277db-39e8-4319-ab60-36ad0f7ff5de
+		summarizeBy: sum
+		sourceColumn: dependente_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column matricula_titular
+		dataType: string
+		lineageTag: 001b0ca6-0dea-4d05-907f-ada3f350a577
+		summarizeBy: none
+		sourceColumn: matricula_titular
+
+		annotation SummarizationSetBy = Automatic
+
+	partition vw_forecast_dependentes = m
+		mode: import
+		source =
+				let
+				    Fonte = PostgreSQL.Database("localhost", "FOPAG_ARQ_Teste"),
+				    analytics_vw_forecast_dependentes = Fonte{[Schema="analytics",Item="vw_forecast_dependentes"]}[Data],
+				    #"Colunas Reordenadas" = Table.ReorderColumns(analytics_vw_forecast_dependentes,{"nome_titular", "nome_dependente", "parentesco", "departamento", "data_nascimento", "idade_atual", "idade_futura", "data_proximo_aniversario", "custo_atual", "faixa_etaria_atual", "custo_futuro", "faixa_etaria_futura", "valor_aumento", "havera_reajuste_faixa", "mes_competencia_aumento"}),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Colunas Reordenadas",{{"valor_aumento", Currency.Type}, {"custo_futuro", Currency.Type}, {"custo_atual", Currency.Type}}),
+				    #"Valor Substituído" = Table.ReplaceValue(#"Tipo Alterado","a","-",Replacer.ReplaceText,{"faixa_etaria_futura"}),
+				    #"Linhas Filtradas" = Table.SelectRows(#"Valor Substituído", each ([parentesco] = "Conjuge" or [parentesco] = "Filho/Enteado") and ([nome_dependente] <> "Jorge Luiz Alves da Silva" and [nome_dependente] <> "Leonardo Ferreira Ribeiro" and [nome_dependente] <> "Luiz Felipe de Souza Marques" and [nome_dependente] <> "Nicolly Steffany Silva Rodrigues" and [nome_dependente] <> "Stella Biato dos Santos") and ([nome_titular] <> "Cleide Alves de Freitas" and [nome_titular] <> "Clicia Suellen Alves Da Silva" and [nome_titular] <> "Douglas Williams Barbosa de Jesus" and [nome_titular] <> "Fernanda De Almeida Costa" and [nome_titular] <> "Giovanni dos Santos Leite" and [nome_titular] <> "Jociley Magalhaes Braga da Silva" and [nome_titular] <> "Jose Alberto Pereira de Matos" and [nome_titular] <> "Ricardo Da Costa Brockveld" and [nome_titular] <> "Robson Seixas Cardoso" and [nome_titular] <> "Thiago Magalhães Laurentino"))
+				in
+				    #"Linhas Filtradas"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

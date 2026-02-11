@@ -1,0 +1,171 @@
+table _Medidas
+	lineageTag: 3b35646b-246f-4e96-81fd-275092f09deb
+
+	measure 'Total Aumento Previsto' =
+			
+			SUM('vw_forecast_dependentes'[valor_aumento])
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		lineageTag: e44ac8ed-04fc-43d9-9a29-93c1366355a8
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'Qtd Dependentes com Reajuste' =
+			
+			CALCULATE(
+			    DISTINCTCOUNT('vw_forecast_dependentes'[dependente_id]),
+			    'vw_forecast_dependentes'[havera_reajuste_faixa] = "Sim"
+			)
+		formatString: 0
+		lineageTag: f6d8adec-76f3-4640-8c6e-d4bdd71d2832
+
+	measure 'Custo Mensal Atual' = ```
+			
+			SUMX(
+			    -- 1. Cria uma lista única de dependentes (remove as duplicatas dos anos futuros)
+			    VALUES('vw_forecast_dependentes'[dependente_id]), 
+			    
+			    -- 2. Pega o custo atual (que é igual em todas as linhas da pessoa) e soma
+			    CALCULATE(MAX('vw_forecast_dependentes'[custo_atual]))
+			)
+			```
+		formatString: "R$"#,0.00;-"R$"#,0.00;"R$"#,0.00
+		lineageTag: 1380dbd8-b238-4d1e-8411-38feee68de3a
+
+		annotation PBI_FormatHint = {"currencyCulture":"es-BR"}
+
+	measure 'Total de Dependentes' = DISTINCTCOUNT('vw_forecast_dependentes'[dependente_id])
+		formatString: 0
+		lineageTag: d21d528c-7bf9-424f-a32e-42a4f44a585a
+
+	measure 'Custo Total por Departamento' = ```
+			
+			CALCULATE(
+			    -- Lógica corrigida: Soma o custo apenas UMA vez por pessoa
+			    SUMX(
+			        VALUES('vw_forecast_dependentes'[dependente_id]),
+			        CALCULATE(MAX('vw_forecast_dependentes'[custo_atual]))
+			    ),
+			    
+			    -- Mantém o filtro apenas no Departamento (remove filtros de data, nome, etc)
+			    ALLEXCEPT('vw_forecast_dependentes', 'vw_forecast_dependentes'[departamento])
+			)
+			```
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		lineageTag: 47b787ae-f769-4514-9e5a-f07850eb39d9
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'Representatividade no Custo' =
+			
+			DIVIDE(
+			    [Total Aumento Previsto], -- Medida para prever o aumento de custo de cada dependente
+			    [Custo Total por Departamento], -- Medida que trava a soma do custo total por departamento
+			    0
+			)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 4bc929ae-f6e0-44a3-91c1-ddfde0420d2b
+
+	measure '% Representatividade Custo Atual' = ```
+			
+			VAR Custo_Total = [Custo Mensal Atual]
+			VAR Custo_Total_Empresa = 
+			CALCULATE(
+			    [Custo Mensal Atual],
+			    ALL('vw_forecast_dependentes')
+			)
+			
+			RETURN
+			DIVIDE(
+			    Custo_Total,
+			    Custo_Total_Empresa,
+			    0
+			)
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 3ad2bae6-07ad-4dcf-85da-153e42dee968
+
+	measure 'Novo Custo Mensal Projetado' = [Custo Mensal Atual] + [Total Aumento Previsto]
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		lineageTag: 36628613-01a7-403c-832f-678506a5facb
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	measure 'Narrativa do Reajuste' = ```
+			
+			-- 1. Identifica o dependente selecionado
+			VAR vNomeDependente = SELECTEDVALUE('vw_forecast_dependentes'[nome_dependente])
+			VAR vNomeTitular = SELECTEDVALUE('vw_forecast_dependentes'[nome_titular])
+			
+			-- 2. Detecta a PRIMEIRA data com AUMENTO no período que você filtrou
+			VAR vDataPrimeiroAumento = 
+			    CALCULATE(
+			        MIN('vw_forecast_dependentes'[data_proximo_aniversario]),
+			        'vw_forecast_dependentes'[valor_aumento] > 0
+			    )
+			
+			-- 3. Se não achar aumento, pega a primeira data de aniversário qualquer do filtro (só para dizer que fez ano)
+			VAR vDataEvento = 
+			    IF(
+			        ISBLANK(vDataPrimeiroAumento),
+			        MIN('vw_forecast_dependentes'[data_proximo_aniversario]),
+			        vDataPrimeiroAumento
+			    )
+			
+			-- 4. Busca os valores daquele dia específico
+			VAR vValorAumento = CALCULATE([Total Aumento Previsto], 'vw_forecast_dependentes'[data_proximo_aniversario] = vDataEvento)
+			VAR vCustoFuturo = CALCULATE([Novo Custo Mensal Projetado], 'vw_forecast_dependentes'[data_proximo_aniversario] = vDataEvento)
+			
+			-- 5. Formatação da Data
+			VAR vDia = DAY(vDataEvento)
+			VAR vMes = FORMAT(vDataEvento, "MMMM")
+			VAR vAno = YEAR(vDataEvento)
+			VAR vDataExtenso = vDia & " de " & vMes & " de " & vAno
+			
+			RETURN
+			    -- Cenário 1: Ninguém selecionado
+			    IF(
+			        ISBLANK(vNomeDependente),
+			        "👈 Selecione um dependente na tabela para ver a análise.",
+			        
+			        -- Cenário 2: Dependente selecionado
+			        IF(
+			            -- Se não tiver data filtrada ou válida
+			            ISBLANK(vDataEvento),
+			            "Selecione um período de tempo válido.",
+			            
+			            IF(
+			                vValorAumento <= 0,
+			                -- Texto Verde (Sem Aumento no período)
+			                "✅ SEM ALTERAÇÃO DE FAIXA NO PERÍODO" & UNICHAR(10) & 
+			                "O dependente " & vNomeDependente & " fará aniversário em " & vDataExtenso & ", mas continuará na mesma faixa de preço.",
+			                
+			                -- Texto Vermelho (Com Aumento Encontrado)
+			                "⚠️ PREVISÃO DE REAJUSTE" & UNICHAR(10) & 
+			                "📅 Data do Evento: " & vDataExtenso & UNICHAR(10) &
+			                "👤 Dependente: " & vNomeDependente & " (Titular: " & vNomeTitular & ")" & UNICHAR(10) &
+			                UNICHAR(10) &
+			                "💰 Novo Boleto: " & FORMAT(vCustoFuturo, "Currency") & 
+			                " (Impacto de + " & FORMAT(vValorAumento, "Currency") & ")"
+			            )
+			        )
+			    )
+			```
+		lineageTag: c4a20f81-3993-44d4-abea-1ffb241cfcf4
+
+	column Column
+		formatString: 0
+		lineageTag: 437815a0-6c4b-4e32-84cb-d68ffbae52a0
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _Medidas = calculated
+		mode: import
+		source = Row("Column", BLANK())
+
+	annotation PBI_Id = fcff57aa4bdd4d61a189dd8be3f3b700
+
+	annotation 436ba87b-9c83-4389-a31b-ebd06a36be98 = {"Expression":""}
+

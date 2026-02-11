@@ -1,0 +1,3972 @@
+cultureInfo pt-BR
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "vw_forecast_dependente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vw forecast dependente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vw_forecast_dependentes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "vw prediction dependente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "vw projection dependente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "vw report dependente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "vw estimate dependente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.nome_titular": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "ConceptualProperty": "nome_titular"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome titular": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nome_titular": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "titular": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.nome_dependente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "ConceptualProperty": "nome_dependente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome dependente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nome_dependente": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.parentesco": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "ConceptualProperty": "parentesco"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "parentesco": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.departamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "ConceptualProperty": "departamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "departamento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.data_nascimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "ConceptualProperty": "data_nascimento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data nascimento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data_nascimento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record nascimento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "vw_forecast_dependente.data_nascimento.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "VariationSource": "data_nascimento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.data_nascimento.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "VariationSource": "data_nascimento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data nascimento ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record nascimento ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.data_nascimento.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "VariationSource": "data_nascimento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data nascimento trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record nascimento trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.data_nascimento.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "VariationSource": "data_nascimento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data nascimento mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record nascimento mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.data_nascimento.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "VariationSource": "data_nascimento",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data nascimento dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record nascimento dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.idade_atual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "ConceptualProperty": "idade_atual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "idade atual": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "idade_atual": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.idade_futura": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "ConceptualProperty": "idade_futura"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "idade futura": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "idade_futura": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.data_proximo_aniversario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "ConceptualProperty": "data_proximo_aniversario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data proximo aniversario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data_proximo_aniversario": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information proximo aniversario": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact proximo aniversario": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info proximo aniversario": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic proximo aniversario": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document proximo aniversario": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure proximo aniversario": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record proximo aniversario": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "vw_forecast_dependente.data_proximo_aniversario.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "VariationSource": "data_proximo_aniversario",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.data_proximo_aniversario.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "VariationSource": "data_proximo_aniversario",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data proximo aniversario ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information proximo aniversario ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact proximo aniversario ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info proximo aniversario ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic proximo aniversario ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document proximo aniversario ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure proximo aniversario ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record proximo aniversario ano": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.data_proximo_aniversario.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "VariationSource": "data_proximo_aniversario",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data proximo aniversario trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information proximo aniversario trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact proximo aniversario trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info proximo aniversario trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic proximo aniversario trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document proximo aniversario trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure proximo aniversario trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record proximo aniversario trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.data_proximo_aniversario.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "VariationSource": "data_proximo_aniversario",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data proximo aniversario mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information proximo aniversario mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact proximo aniversario mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info proximo aniversario mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic proximo aniversario mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document proximo aniversario mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure proximo aniversario mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record proximo aniversario mê": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.data_proximo_aniversario.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "VariationSource": "data_proximo_aniversario",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data proximo aniversario dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information proximo aniversario dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fact proximo aniversario dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "info proximo aniversario dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "statistic proximo aniversario dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "document proximo aniversario dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "figure proximo aniversario dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "record proximo aniversario dia": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.custo_atual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "ConceptualProperty": "custo_atual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "custo atual": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "custo_atual": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.faixa_etaria_atual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "ConceptualProperty": "faixa_etaria_atual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faixa etaria atual": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "faixa_etaria_atual": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.custo_futuro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "ConceptualProperty": "custo_futuro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "custo futuro": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "custo_futuro": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.faixa_etaria_futura": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "ConceptualProperty": "faixa_etaria_futura"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faixa etaria futura": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "faixa_etaria_futura": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.valor_aumento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "ConceptualProperty": "valor_aumento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor aumento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "valor_aumento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.havera_reajuste_faixa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "ConceptualProperty": "havera_reajuste_faixa"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "havera reajuste faixa": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "havera_reajuste_faixa": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente.mes_competencia_aumento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_forecast_dependentes",
+			          "ConceptualProperty": "mes_competencia_aumento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mes competencia aumento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "me competencia aumento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "mes_competencia_aumento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "_medida": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.column": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Column"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pilaster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pillar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "post": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "support": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pole": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "buttress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "underpinning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.total_aumento_previsto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Total Aumento Previsto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total aumento previsto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate aumento previsto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall aumento previsto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.qtd_dependentes_com_reajuste": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Qtd Dependentes com Reajuste"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "qtd dependentes com reajuste": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.custo_mensal_atual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Custo Mensal Atual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "custo mensal atual": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.total_de_dependentes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Total de Dependentes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total de dependentes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate de dependente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall de dependente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.custo_total_por_departamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Custo Total por Departamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "custo total por departamento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "custo aggregate por departamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "custo overall por departamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.representatividade_no_custo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "Representatividade no Custo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "representatividade no custo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "representatividade number custo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "entity__medida.representatividade_custo_atual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Medidas",
+			          "ConceptualProperty": "% Representatividade Custo Atual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% representatividade custo atual": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage representatividade custo atual": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct representatividade custo atual": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "dim_plano_saude": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_plano_saude"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dim plano saude": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dim_plano_saude": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "dim_plano_saude.regra_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_plano_saude",
+			          "ConceptualProperty": "regra_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "regra id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "regra_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "regra identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "regra identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "regra identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "regra credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dim_plano_saude.nome_plano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_plano_saude",
+			          "ConceptualProperty": "nome_plano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome plano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nome_plano": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "plano": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "dim_plano_saude.faixa_min": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_plano_saude",
+			          "ConceptualProperty": "faixa_min"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faixa min": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "faixa_min": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "faixa minimum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dim_plano_saude.faixa_max": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_plano_saude",
+			          "ConceptualProperty": "faixa_max"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faixa max": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "faixa_max": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "faixa maximum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "dim_plano_saude.valor_mensal": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "dim_plano_saude",
+			          "ConceptualProperty": "valor_mensal"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor mensal": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "valor_mensal": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "courage mensal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "bravery mensal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "heroism mensal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "fearlessness mensal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "boldness mensal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "gallantry mensal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "lionheartedness mensal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "pluck mensal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "spirit mensal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "nerve mensal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "vw_forecast_dependente_data_proximo_aniversario_mê_has_vw_forecast_dependente_data_proximo_aniversario_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente.data_proximo_aniversario.mê": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_proximo_aniversario.mê"
+			          }
+			        },
+			        "vw_forecast_dependente.data_proximo_aniversario.dia": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_proximo_aniversario.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.mê"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.dia"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê1"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_data_proximo_aniversario_trimestre_has_vw_forecast_dependente_data_proximo_aniversario_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente.data_proximo_aniversario.trimestre": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_proximo_aniversario.trimestre"
+			          }
+			        },
+			        "vw_forecast_dependente.data_proximo_aniversario.mê": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_proximo_aniversario.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.trimestre"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.mê"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_data_proximo_aniversario_ano_has_vw_forecast_dependente_data_proximo_aniversario_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente.data_proximo_aniversario.ano": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_proximo_aniversario.ano"
+			          }
+			        },
+			        "vw_forecast_dependente.data_proximo_aniversario.trimestre": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_proximo_aniversario.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.ano"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.trimestre"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos1"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_data_proximo_aniversario_hierarquia_de_data_has_vw_forecast_dependente_data_proximo_aniversario_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente.data_proximo_aniversario.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_proximo_aniversario.hierarquia_de_data"
+			          }
+			        },
+			        "vw_forecast_dependente.data_proximo_aniversario.dia": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_proximo_aniversario.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias3"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_data_proximo_aniversario_hierarquia_de_data_has_vw_forecast_dependente_data_proximo_aniversario_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente.data_proximo_aniversario.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_proximo_aniversario.hierarquia_de_data"
+			          }
+			        },
+			        "vw_forecast_dependente.data_proximo_aniversario.mê": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_proximo_aniversario.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê3"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_data_proximo_aniversario_hierarquia_de_data_has_vw_forecast_dependente_data_proximo_aniversario_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente.data_proximo_aniversario.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_proximo_aniversario.hierarquia_de_data"
+			          }
+			        },
+			        "vw_forecast_dependente.data_proximo_aniversario.trimestre": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_proximo_aniversario.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres3"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_data_proximo_aniversario_hierarquia_de_data_has_vw_forecast_dependente_data_proximo_aniversario_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente.data_proximo_aniversario.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_proximo_aniversario.hierarquia_de_data"
+			          }
+			        },
+			        "vw_forecast_dependente.data_proximo_aniversario.ano": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_proximo_aniversario.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos3"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_data_proximo_aniversario_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente.data_proximo_aniversario": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_proximo_aniversario"
+			          }
+			        },
+			        "vw_forecast_dependente.data_proximo_aniversario.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_proximo_aniversario.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_proximo_aniversarios_have_hierarquia_de_data1"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_data_nascimento_mê_has_vw_forecast_dependente_data_nascimento_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente.data_nascimento.mê": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_nascimento.mê"
+			          }
+			        },
+			        "vw_forecast_dependente.data_nascimento.dia": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_nascimento.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_nascimento.mê"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_nascimento.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias4"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_nascimento.dia"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_nascimento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê4"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_nascimento.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_nascimento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_data_nascimento_trimestre_has_vw_forecast_dependente_data_nascimento_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente.data_nascimento.trimestre": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_nascimento.trimestre"
+			          }
+			        },
+			        "vw_forecast_dependente.data_nascimento.mê": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_nascimento.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_nascimento.trimestre"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_nascimento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê4"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_nascimento.mê"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_nascimento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres4"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_nascimento.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_nascimento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_data_nascimento_ano_has_vw_forecast_dependente_data_nascimento_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente.data_nascimento.ano": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_nascimento.ano"
+			          }
+			        },
+			        "vw_forecast_dependente.data_nascimento.trimestre": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_nascimento.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_nascimento.ano"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_nascimento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres4"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_nascimento.trimestre"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_nascimento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos4"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_nascimento.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_nascimento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_data_nascimento_hierarquia_de_data_has_vw_forecast_dependente_data_nascimento_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente.data_nascimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_nascimento.hierarquia_de_data"
+			          }
+			        },
+			        "vw_forecast_dependente.data_nascimento.dia": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_nascimento.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_nascimento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_nascimento.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias4"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_data_nascimento_hierarquia_de_data_has_vw_forecast_dependente_data_nascimento_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente.data_nascimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_nascimento.hierarquia_de_data"
+			          }
+			        },
+			        "vw_forecast_dependente.data_nascimento.mê": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_nascimento.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_nascimento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_nascimento.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê4"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_data_nascimento_hierarquia_de_data_has_vw_forecast_dependente_data_nascimento_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente.data_nascimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_nascimento.hierarquia_de_data"
+			          }
+			        },
+			        "vw_forecast_dependente.data_nascimento.trimestre": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_nascimento.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_nascimento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_nascimento.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres4"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_data_nascimento_hierarquia_de_data_has_vw_forecast_dependente_data_nascimento_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente.data_nascimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_nascimento.hierarquia_de_data"
+			          }
+			        },
+			        "vw_forecast_dependente.data_nascimento.ano": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_nascimento.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_nascimento.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_nascimento.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos4"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_data_nascimento_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente.data_nascimento": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_nascimento"
+			          }
+			        },
+			        "vw_forecast_dependente.data_nascimento.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_nascimento.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente.data_nascimento"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_nascimento.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_nascimentos_have_hierarquia_de_data1"
+			        }
+			      ]
+			    },
+			    "dim_plano_saude_has_valor_mensal": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_plano_saude"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_plano_saude": {
+			          "Target": {
+			            "Entity": "dim_plano_saude"
+			          }
+			        },
+			        "dim_plano_saude.valor_mensal": {
+			          "Target": {
+			            "Entity": "dim_plano_saude.valor_mensal"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_plano_saude"
+			            },
+			            "Object": {
+			              "Role": "dim_plano_saude.valor_mensal"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_plano_saudes_have_valor_mensal"
+			        }
+			      ]
+			    },
+			    "dim_plano_saude_has_faixa_max": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_plano_saude"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_plano_saude": {
+			          "Target": {
+			            "Entity": "dim_plano_saude"
+			          }
+			        },
+			        "dim_plano_saude.faixa_max": {
+			          "Target": {
+			            "Entity": "dim_plano_saude.faixa_max"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_plano_saude"
+			            },
+			            "Object": {
+			              "Role": "dim_plano_saude.faixa_max"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_plano_saudes_have_faixa_maxes"
+			        }
+			      ]
+			    },
+			    "dim_plano_saude_has_faixa_min": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_plano_saude"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_plano_saude": {
+			          "Target": {
+			            "Entity": "dim_plano_saude"
+			          }
+			        },
+			        "dim_plano_saude.faixa_min": {
+			          "Target": {
+			            "Entity": "dim_plano_saude.faixa_min"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_plano_saude"
+			            },
+			            "Object": {
+			              "Role": "dim_plano_saude.faixa_min"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_plano_saudes_have_faixa_mins"
+			        }
+			      ]
+			    },
+			    "dim_plano_saude_has_nome_plano": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_plano_saude"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_plano_saude": {
+			          "Target": {
+			            "Entity": "dim_plano_saude"
+			          }
+			        },
+			        "dim_plano_saude.nome_plano": {
+			          "Target": {
+			            "Entity": "dim_plano_saude.nome_plano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_plano_saude"
+			            },
+			            "Object": {
+			              "Role": "dim_plano_saude.nome_plano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_plano_saudes_have_nome_plano"
+			        }
+			      ]
+			    },
+			    "dim_plano_saude_has_regra_id": {
+			      "Binding": {
+			        "ConceptualEntity": "dim_plano_saude"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "dim_plano_saude": {
+			          "Target": {
+			            "Entity": "dim_plano_saude"
+			          }
+			        },
+			        "dim_plano_saude.regra_id": {
+			          "Target": {
+			            "Entity": "dim_plano_saude.regra_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "dim_plano_saude"
+			            },
+			            "Object": {
+			              "Role": "dim_plano_saude.regra_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dim_plano_saudes_have_regra_ids"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_entity__medida_representatividade_custo_atual": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "entity__medida.representatividade_custo_atual": {
+			          "Target": {
+			            "Entity": "entity__medida.representatividade_custo_atual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.representatividade_custo_atual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have__representatividade_custo_atual"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_entity__medida_representatividade_no_custo": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "entity__medida.representatividade_no_custo": {
+			          "Target": {
+			            "Entity": "entity__medida.representatividade_no_custo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.representatividade_no_custo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_representatividade_no_custo"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_entity__medida_custo_total_por_departamento": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "entity__medida.custo_total_por_departamento": {
+			          "Target": {
+			            "Entity": "entity__medida.custo_total_por_departamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.custo_total_por_departamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_custo_total_por_departamento"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_entity__medida_total_de_dependentes": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "entity__medida.total_de_dependentes": {
+			          "Target": {
+			            "Entity": "entity__medida.total_de_dependentes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.total_de_dependentes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_total_de_dependentes"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_entity__medida_custo_mensal_atual": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "entity__medida.custo_mensal_atual": {
+			          "Target": {
+			            "Entity": "entity__medida.custo_mensal_atual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.custo_mensal_atual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_custo_mensal_atual"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_entity__medida_qtd_dependentes_com_reajuste": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "entity__medida.qtd_dependentes_com_reajuste": {
+			          "Target": {
+			            "Entity": "entity__medida.qtd_dependentes_com_reajuste"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.qtd_dependentes_com_reajuste"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_qtd_dependentes_com_reajuste"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_entity__medida_aumento_previsto_proximos_90_dias": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "entity__medida.aumento_previsto_proximos_90_dias": {
+			          "Target": {
+			            "Entity": "entity__medida.aumento_previsto_proximos_90_dias"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.aumento_previsto_proximos_90_dias"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_aumento_previsto_proximos_90_dias"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_entity__medida_total_aumento_previsto": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "entity__medida.total_aumento_previsto": {
+			          "Target": {
+			            "Entity": "entity__medida.total_aumento_previsto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.total_aumento_previsto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_total_aumento_previsto"
+			        }
+			      ]
+			    },
+			    "entity__medida_has_column": {
+			      "Binding": {
+			        "ConceptualEntity": "_Medidas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "entity__medida": {
+			          "Target": {
+			            "Entity": "entity__medida"
+			          }
+			        },
+			        "entity__medida.column": {
+			          "Target": {
+			            "Entity": "entity__medida.column"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "entity__medida"
+			            },
+			            "Object": {
+			              "Role": "entity__medida.column"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "Phrasing_medidas_have_columns"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_mes_competencia_aumento": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "vw_forecast_dependente.mes_competencia_aumento": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.mes_competencia_aumento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.mes_competencia_aumento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_mes_competencia_aumentos"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_havera_reajuste_faixa": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "vw_forecast_dependente.havera_reajuste_faixa": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.havera_reajuste_faixa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.havera_reajuste_faixa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_havera_reajuste_faixas"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_valor_aumento": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "vw_forecast_dependente.valor_aumento": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.valor_aumento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.valor_aumento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_valor_aumentos"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "vw_forecast_dependente.valor_aumento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "valor_aumento_indicates_how_expensive_vw_forecast_dependentes_are"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_faixa_etaria_futura": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "vw_forecast_dependente.faixa_etaria_futura": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.faixa_etaria_futura"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.faixa_etaria_futura"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_faixa_etaria_futuras"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_custo_futuro": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "vw_forecast_dependente.custo_futuro": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.custo_futuro"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.custo_futuro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_custo_futuros"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "vw_forecast_dependente.custo_futuro"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "custo_futuro_indicates_how_expensive_vw_forecast_dependentes_are"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_faixa_etaria_atual": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "vw_forecast_dependente.faixa_etaria_atual": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.faixa_etaria_atual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.faixa_etaria_atual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_faixa_etaria_atuals"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_plano_atual": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "vw_forecast_dependente.plano_atual": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.plano_atual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.plano_atual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_plano_atuals"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_custo_atual": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "vw_forecast_dependente.custo_atual": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.custo_atual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.custo_atual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_custo_atuals"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "vw_forecast_dependente.custo_atual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "custo_atual_indicates_how_expensive_vw_forecast_dependentes_are"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_dias_para_aniversario": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "vw_forecast_dependente.dias_para_aniversario": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.dias_para_aniversario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.dias_para_aniversario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_dias_para_aniversarios"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_data_proximo_aniversario": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "vw_forecast_dependente.data_proximo_aniversario": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_proximo_aniversario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_proximo_aniversario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_data_proximo_aniversarios"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_idade_futura": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "vw_forecast_dependente.idade_futura": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.idade_futura"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.idade_futura"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_idade_futuras"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_idade_atual": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "vw_forecast_dependente.idade_atual": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.idade_atual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.idade_atual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_idade_atuals"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_data_nascimento": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "vw_forecast_dependente.data_nascimento": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.data_nascimento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.data_nascimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_data_nascimentos"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_departamento": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "vw_forecast_dependente.departamento": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.departamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.departamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_departamentos"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_parentesco": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "vw_forecast_dependente.parentesco": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.parentesco"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.parentesco"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_parentescos"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_nome_dependente": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "vw_forecast_dependente.nome_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.nome_dependente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.nome_dependente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_nome_dependentes"
+			        }
+			      ]
+			    },
+			    "vw_forecast_dependente_has_nome_titular": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_forecast_dependentes"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_forecast_dependente": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente"
+			          }
+			        },
+			        "vw_forecast_dependente.nome_titular": {
+			          "Target": {
+			            "Entity": "vw_forecast_dependente.nome_titular"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_forecast_dependente"
+			            },
+			            "Object": {
+			              "Role": "vw_forecast_dependente.nome_titular"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_forecast_dependentes_have_nome_titulars"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

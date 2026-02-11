@@ -1,0 +1,63 @@
+table dim_plano_saude
+	lineageTag: 240c4ccb-c529-4762-95a5-0e9d150d35e6
+
+	column regra_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 089ca105-5553-43c0-a7fe-73aa2b8964ae
+		summarizeBy: sum
+		sourceColumn: regra_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column nome_plano
+		dataType: string
+		lineageTag: 1745cdc3-d28c-4311-a98a-08aba65e1cae
+		summarizeBy: none
+		sourceColumn: nome_plano
+
+		annotation SummarizationSetBy = Automatic
+
+	column faixa_min
+		dataType: int64
+		formatString: 0
+		lineageTag: 2a45df3c-e700-4099-a277-ae6c47a182d1
+		summarizeBy: sum
+		sourceColumn: faixa_min
+
+		annotation SummarizationSetBy = Automatic
+
+	column faixa_max
+		dataType: int64
+		formatString: 0
+		lineageTag: c9e325ed-780b-4517-bd21-17c3d278e52b
+		summarizeBy: sum
+		sourceColumn: faixa_max
+
+		annotation SummarizationSetBy = Automatic
+
+	column valor_mensal
+		dataType: decimal
+		formatString: "R$"\ #,0.###############;-"R$"\ #,0.###############;"R$"\ #,0.###############
+		lineageTag: 34eda90c-2779-4285-b293-8aadeb7e0e08
+		summarizeBy: sum
+		sourceColumn: valor_mensal
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"pt-BR"}
+
+	partition dim_plano_saude = m
+		mode: import
+		source =
+				let
+				    Fonte = PostgreSQL.Database("localhost", "FOPAG_ARQ_Teste"),
+				    FOPAG_dim_plano_saude_regras = Fonte{[Schema="FOPAG",Item="dim_plano_saude_regras"]}[Data],
+				    #"Tipo Alterado" = Table.TransformColumnTypes(FOPAG_dim_plano_saude_regras,{{"valor_mensal", Currency.Type}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,23 @@
+model Model
+	culture: pt-BR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: pt-BR
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["vw_forecast_dependentes","dim_plano_saude"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table vw_forecast_dependentes
+ref table DateTableTemplate_3328fd8d-f51c-464c-965c-eaf5d52690ef
+ref table LocalDateTable_b40abb64-d56b-4e14-acaa-764e6d7a6c47
+ref table LocalDateTable_2604e383-5b12-4a9f-8576-467131b74c0d
+ref table _Medidas
+ref table dim_plano_saude
+
+ref cultureInfo pt-BR
+

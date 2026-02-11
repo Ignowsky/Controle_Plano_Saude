@@ -1,0 +1,10 @@
+relationship 35a7f08c-d782-4729-81ac-29ecab402f3b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: vw_forecast_dependentes.data_nascimento
+	toColumn: LocalDateTable_b40abb64-d56b-4e14-acaa-764e6d7a6c47.Date
+
+relationship f67f7d0e-735c-4a62-b354-b1cb7012e0d0
+	joinOnDateBehavior: datePartOnly
+	fromColumn: vw_forecast_dependentes.data_proximo_aniversario
+	toColumn: LocalDateTable_2604e383-5b12-4a9f-8576-467131b74c0d.Date
+
